@@ -1,0 +1,63 @@
+
+    <style>
+
+        .img-responsive
+        {
+            width: 150%;
+            height: 150%;
+        }
+        .footer {
+              position: relative;
+              bottom: 0;
+              width: 100%;
+              height: 100%;
+              /* Set the fixed height of the footer here */
+              height: 120px;
+              background-color: #265a88;
+            }
+        .text-muted
+        {
+            color: white;
+            text-align: center;
+        }
+
+    #img_container
+    {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+    border:1px solid red;
+        }
+
+.centerit {
+    position:absolute;
+    bottom:50%;
+    right:30%;
+    width:100px;
+    height:30px;
+}
+        .centerit1 {
+    position:absolute;
+    bottom:50%;
+    right:40%;
+    width:400px;
+    height:40px;
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 120%;
+  padding: 12px;
+  width: auto;
+}
+
+    </style>

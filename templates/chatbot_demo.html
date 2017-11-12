@@ -1,0 +1,147 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="static/js/chatbot.js"></script>
+<link rel="stylesheet" href="css/chatbot.css" type="text/css">
+<link href="mdb/css/mdb.min.css" rel="stylesheet">
+<script type="text/javascript" src="mdb/js/popper.min.js"></script>
+<script type="text/javascript" src="mdb/js/mdb.min.js"></script>
+<link type="text/css" rel="stylesheet" href="light-slider/css/lightslider.css" />
+<script src="light-slider/js/lightslider.js"></script>
+<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-76380861-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightSlider").lightSlider();
+        });
+    </script>
+
+<script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:538777,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+</head>
+<body>
+<div class="topstrip" id="topstrip">Powered by <a href="https://www.miningbusinessdata.com" style="color:#d3d3d3"> MiningBusinessData</a>&nbsp;&nbsp;&nbsp;</div>
+<div class="topbar container-fluid" id="chat-text">
+</div>
+<form>
+<span style="width:100%;">
+<input class="inputbox" placeholder="Write something and press Enter..." id="message" name="date" value="">
+</span>
+<input name="submit" type="hidden" value="Submit">
+</form>
+<div id="dom-target" style="display: none;">
+{
+&quot;id&quot;: &quot;7c589a8b-2bb1-4da3-b281-da45e48e4c22&quot;,
+&quot;timestamp&quot;: &quot;2017-11-12T02:09:12.732Z&quot;,
+&quot;lang&quot;: &quot;en&quot;,
+&quot;result&quot;: {
+&quot;source&quot;: &quot;agent&quot;,
+&quot;resolvedQuery&quot;: &quot;START&quot;,
+&quot;action&quot;: &quot;&quot;,
+&quot;actionIncomplete&quot;: false,
+&quot;parameters&quot;: {},
+&quot;contexts&quot;: [
+{
+&quot;name&quot;: &quot;displayed-start-menu&quot;,
+&quot;parameters&quot;: {},
+&quot;lifespan&quot;: 1
+}
+],
+&quot;metadata&quot;: {
+&quot;intentId&quot;: &quot;ed00b56b-9377-4dde-99ce-0dd2e3167f27&quot;,
+&quot;webhookUsed&quot;: &quot;false&quot;,
+&quot;webhookForSlotFillingUsed&quot;: &quot;false&quot;,
+&quot;intentName&quot;: &quot;Start&quot;
+},
+&quot;fulfillment&quot;: {
+&quot;speech&quot;: &quot;&quot;,
+&quot;messages&quot;: [
+{
+&quot;type&quot;: &quot;list_card&quot;,
+&quot;platform&quot;: &quot;google&quot;,
+&quot;title&quot;: &quot;Choose an option from below&quot;,
+&quot;items&quot;: [
+{
+&quot;optionInfo&quot;: {
+&quot;key&quot;: &quot;browse bestsellers&quot;,
+&quot;synonyms&quot;: []
+},
+&quot;title&quot;: &quot;Browse best sellers&quot;,
+&quot;description&quot;: &quot;Choose a category and see the top bestseller in that category (for all)&quot;,
+&quot;image&quot;: {
+&quot;url&quot;: &quot;http://miningbusinessdata.com/wp-content/uploads/2017/09/gold-medal.png&quot;
+}
+},
+{
+&quot;optionInfo&quot;: {
+&quot;key&quot;: &quot;browse by category&quot;,
+&quot;synonyms&quot;: []
+},
+&quot;title&quot;: &quot;Browse by category&quot;,
+&quot;description&quot;: &quot;Select a category and browse for gift ideas within the category (for men)&quot;,
+&quot;image&quot;: {
+&quot;url&quot;: &quot;http://miningbusinessdata.com/wp-content/uploads/2017/09/category.png&quot;
+}
+},
+{
+&quot;optionInfo&quot;: {
+&quot;key&quot;: &quot;browse by price range&quot;,
+&quot;synonyms&quot;: []
+},
+&quot;title&quot;: &quot;Browse by price range&quot;,
+&quot;description&quot;: &quot;Choose from a target price range to see gift ideas within that range (for men)&quot;,
+&quot;image&quot;: {
+&quot;url&quot;: &quot;http://miningbusinessdata.com/wp-content/uploads/2017/09/money-bag.png&quot;
+}
+},
+{
+&quot;optionInfo&quot;: {
+&quot;key&quot;: &quot;get personalized recommendations&quot;,
+&quot;synonyms&quot;: []
+},
+&quot;title&quot;: &quot;Personalized&quot;,
+&quot;description&quot;: &quot;Answer a few questions and get personalized recommendations&quot;,
+&quot;image&quot;: {
+&quot;url&quot;: &quot;http://miningbusinessdata.com/wp-content/uploads/2017/09/id-card.png&quot;
+}
+}
+]
+},
+{
+&quot;type&quot;: 0,
+&quot;speech&quot;: &quot;&quot;
+}
+]
+},
+&quot;score&quot;: 1.0
+},
+&quot;status&quot;: {
+&quot;code&quot;: 200,
+&quot;errorType&quot;: &quot;success&quot;
+},
+&quot;sessionId&quot;: &quot;5a07ad48ab7138.63952905&quot;
+}</div>
+<span style="display: none;" id="sessionId">
+5a07ad48ab7138.63952905 </span>
+</body>
+</html>
